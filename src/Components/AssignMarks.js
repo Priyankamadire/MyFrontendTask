@@ -90,7 +90,7 @@ const AssignMarks = () => {
       navigate("/clghome");
     } catch (error) {
       console.error(error);
-      window.alert("Failed to apply");
+      window.alert("Marks have been already Posted");
     }
   };
   // Render loading message while fetching data

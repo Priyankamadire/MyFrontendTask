@@ -7,7 +7,7 @@ const ClgHome = () => {
 
   const callHomePage = async () => {
     try {
-      const res = await fetch('http://localhost:5000/mydetails', {
+      const res = await fetch('https://mybackendtask.onrender.com/mydetails', {
         method: 'GET',
         headers: {
           Accept: 'application/json',
