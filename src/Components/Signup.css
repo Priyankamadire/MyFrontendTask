@@ -1,0 +1,82 @@
+/* signup.css */
+.signup {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signup-content {
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as needed */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .signup-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; /* Let the form take remaining space */
+  }
+  
+  .signup-image {
+    margin-left: 20px; /* Add margin for spacing */
+  }
+  
+  .signup-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+  }
+  
+  /* Rest of the CSS remains the same */
+  
+  /* Rest of the CSS remains the same */
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column; /* Display items in a vertical layout */
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px; /* Add some margin to separate elements */
+  }
+  
+  /* Adjust icon size and margin */
+  .materials-icons-name {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .form-button {
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate from form */
+  }
+  
+  .form-submit {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-submit:hover {
+    background-color: #45a049;
+  }
+  

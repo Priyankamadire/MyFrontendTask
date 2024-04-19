@@ -1,0 +1,51 @@
+nav{
+    background-color: rgba(134, 117, 230, 0.768); 
+    overflow: hidden;
+}  
+/* Navbar.css */
+
+/* .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  } */
+  
+  .navbar-brand img {
+    margin-right: 10px; /* Add margin to the right of the logo */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Set text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+  
+ 
+  
+  @media (max-width: 767.98px) {
+    .navbar-toggler {
+      color: #333; /* Set color of toggler icon */
+    }
+  }
+  
+  /* Additional styles for dropdown menus if needed */
+  .dropdown-menu {
+    background-color: #ffffff; /* Set background color for dropdown menu */
+    border: none; /* Remove default border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .dropdown-item {
+    color: #333; /* Set text color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Change background color on hover */
+  }
+  

@@ -1,0 +1,38 @@
+/* login.css */
+.sign-in {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signin-content {
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .signin-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .signin-image {
+    margin-left: 20px;
+  }
+  
+  .signin-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .signin-image p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .signin-image p a {
+    color: blue;
+  }
+  
