@@ -19,7 +19,7 @@ const ClgHome = () => {
       if (!res.ok) {
         throw new Error(data.error);
       }
-      setUserName(data.user.name); // Assuming user name is nested under 'user' object
+      setUserName(data.user); // Assuming user name is nested under 'user' object
     } catch (err) {
       console.log(typeof err); // Log the type of error to the console
       console.error(err); // Log the error message to the console
@@ -43,7 +43,7 @@ const ClgHome = () => {
 
   return (
     <div>
-      <h1>Hi {userName}</h1>
+      <h1>Hi {userName.name}</h1>
     </div>
   );
 };
