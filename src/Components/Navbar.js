@@ -50,18 +50,18 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about" onClick={closeNavbar}>
+            <NavLink className="nav-link text-light" to="/about" onClick={closeNavbar}>
               About
             </NavLink>
           </li>
           
           <li className="nav-item">
-            <NavLink className="nav-link" to="/stdslogin" onClick={closeNavbar}>
+            <NavLink className="nav-link text-light" to="/stdslogin" onClick={closeNavbar}>
               Login
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/teachlogin" onClick={closeNavbar}>
+            <NavLink className="nav-link text-light" to="/teachlogin" onClick={closeNavbar}>
               TEACHER LOGIN
             </NavLink>
           </li>
