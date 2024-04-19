@@ -115,7 +115,7 @@ const StdsSubmitted = () => {
                   <td>{student.assignment_description}</td>
                   <td><a href={student.assignment_link} target="_blank" rel="noopener noreferrer">View</a></td>
                  <td> <NavLink to={`/assignmarks/${student.rlno}/${student.assignment_id}`} >
-                     View Submmited Students</NavLink></td>  
+                     Assign Marks</NavLink></td>  
                 </tr>
               ))}
             </tbody>
