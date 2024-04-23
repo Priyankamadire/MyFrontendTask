@@ -103,7 +103,7 @@ const ViewSubmStds = () => {
                 <th>Class and Section</th>
                 <th>Due Date</th>
                 <th>Marks</th>
-                <th>Total Students</th>
+                {/* <th>Total Students</th> */}
                 <th>Submitted Students</th>
               </tr>
             </thead>
@@ -116,7 +116,7 @@ const ViewSubmStds = () => {
                   <td>{assignment.classandsection}</td>
                   <td>{assignment.due_date}</td>
                   <td>{assignment.marks}</td>
-                  <td>{assignment.total_students}</td>
+                  {/* <td>{assignment.total_students}</td> */}
                   <td>
                   <NavLink to={`/stdsubmited/${assignment.id}`} >
                      View Submmited Students</NavLink></td>   </tr>

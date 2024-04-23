@@ -102,7 +102,7 @@ const ClgViewAssg = () => {
                 <th>Class and Section</th>
                 <th>Due Date</th>
                 <th>Marks</th>
-                <th>Total Students</th>
+                {/* <th>Total Students</th> */}
                 {/* <th>Update</th> */}
                 <th>View Student Result</th>
 
@@ -119,7 +119,7 @@ const ClgViewAssg = () => {
                   <td>{assignment.classandsection}</td>
                   <td>{assignment.due_date}</td>
                   <td>{assignment.marks}</td>
-                  <td>{assignment.total_students}</td>
+                  {/* <td>{assignment.total_students}</td> */}
                   {/* <td>
   <NavLink to={`/udateassg/${assignment.id}`}>
     <button className='btn btn-success'>Update</button>
