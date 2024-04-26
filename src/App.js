@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import { initialState,reducer } from './reducer/UseReducer';
 import { myState,clgreducer } from './reducer/ClgReducer'
-
+    
 import Home from './Components/Home';
 import StdLogin from './Components/StdLogin';
 import StdSignup from './Components/StdSignup';
